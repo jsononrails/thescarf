@@ -4,12 +4,12 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 
-import thescarf.math.*;
+import thescarf.framework.math.*;
 import thescarf.framework.*;
 import thescarf.framework.math.Matrix3x3f;
 import thescarf.framework.math.Vector2f;
 import thescarf.framework.utility.PolygonWrapper;
-import thescarf.framework.utility.Utility;
+import thescarf.framework.utility.GraphicsUtils;
 
 public class ScreenWrapExample extends GameBase {
 
@@ -129,7 +129,7 @@ public class ScreenWrapExample extends GameBase {
 				
 			}
 			
-			Utility.drawPolygon(g, toRender);
+			GraphicsUtils.drawPolygon(g, toRender);
 			
 		}
 		

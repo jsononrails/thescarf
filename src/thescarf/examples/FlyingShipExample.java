@@ -8,7 +8,7 @@ import thescarf.framework.*;
 import thescarf.framework.math.Matrix3x3f;
 import thescarf.framework.utility.PolygonWrapper;
 import thescarf.prototype.*;
-import thescarf.math.*;
+import thescarf.framework.math.*;
 
 public class FlyingShipExample extends GameBase {
 

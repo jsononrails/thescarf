@@ -6,12 +6,12 @@ import java.awt.image.*;
 
 import javax.swing.*;
 
-import thescarf.math.*;
+import thescarf.framework.math.*;
 import thescarf.framework.input.KeyboardInput;
 import thescarf.framework.input.RelativeMouseInput;
 import thescarf.framework.math.Vector2f;
 import thescarf.framework.utility.FrameRate;
-import thescarf.input.*;
+import thescarf.framework.input.*;
 
 public class VectorGraphicsExample extends JFrame implements Runnable {
 

@@ -4,14 +4,14 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.*;
 
-import thescarf.math.*;
+import thescarf.framework.math.*;
 import thescarf.framework.*;
 import thescarf.prototype.*;
 import thescarf.prototype.PrototypeAsteroid.SizeEnum;
 import thescarf.framework.math.Matrix3x3f;
 import thescarf.framework.math.Vector2f;
 import thescarf.framework.utility.PolygonWrapper;
-import thescarf.framework.utility.Utility;
+import thescarf.framework.utility.GraphicsUtils;
 
 public class RandomAsteroidExample extends GameBase {
 

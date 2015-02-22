@@ -12,8 +12,8 @@ import thescarf.framework.input.RelativeMouseInput;
 import thescarf.framework.math.Matrix3x3f;
 import thescarf.framework.math.Vector2f;
 import thescarf.framework.utility.FrameRate;
-import thescarf.input.*;
-import thescarf.math.*;
+import thescarf.framework.input.*;
+import thescarf.framework.math.*;
 
 public class MatrixMultiplyExample extends JFrame implements Runnable {
 	

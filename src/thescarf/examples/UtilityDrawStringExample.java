@@ -5,7 +5,7 @@ import java.awt.event.KeyEvent;
 import java.util.Vector;
 
 import thescarf.framework.GameBase;
-import thescarf.framework.utility.Utility;
+import thescarf.framework.utility.GraphicsUtils;
 
 @SuppressWarnings("serial")
 public class UtilityDrawStringExample extends GameBase {
@@ -61,18 +61,18 @@ public class UtilityDrawStringExample extends GameBase {
 				
 		);
 		
-		textPos = Utility.drawString(g2d, 20, textPos, "Font Size: " + g2d.getFont().getSize());
+		textPos = GraphicsUtils.drawString(g2d, 20, textPos, "Font Size: " + g2d.getFont().getSize());
 		
-		textPos = Utility.drawString(g2d, 20, textPos, "Use the arrow keys",
+		textPos = GraphicsUtils.drawString(g2d, 20, textPos, "Use the arrow keys",
 				"to tweak the font size","");
 		
 		g2d.setColor(Color.WHITE);
 		
-		textPos = Utility.drawString(g2d, 20, textPos, "Single String");
+		textPos = GraphicsUtils.drawString(g2d, 20, textPos, "Single String");
 		
 		g2d.setColor(Color.BLUE);
 		
-		textPos = Utility.drawString(g2d, 20, textPos, "Strings",
+		textPos = GraphicsUtils.drawString(g2d, 20, textPos, "Strings",
 				"With",
 				"Commas");
 		
@@ -86,7 +86,7 @@ public class UtilityDrawStringExample extends GameBase {
 				
 		};
 		
-		textPos = Utility.drawString(g2d, 20, textPos, array);
+		textPos = GraphicsUtils.drawString(g2d, 20, textPos, array);
 		
 		g2d.setColor(Color.RED);
 		
@@ -95,7 +95,7 @@ public class UtilityDrawStringExample extends GameBase {
 		list.add("With");
 		list.add("Lists");
 		
-		textPos = Utility.drawString(g2d, 20, textPos, list);
+		textPos = GraphicsUtils.drawString(g2d, 20, textPos, list);
 	}
 	
 	public static void main(String[] args) {
